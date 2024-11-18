@@ -3,7 +3,7 @@
 ## > python -m venv myenv
 
 ## 2. First Activate the Virtual enviroment with below command.
-### > source venv/bin/activate
+### > source myenv/bin/activate
 
 ## go to the createApi folder which have the create_api.py file
 
@@ -15,3 +15,7 @@
 
 ## 5 command to the new user with the terminal
 ### > curl -X POST -H "Content-Type: application/json" -d '{"id": 3, "name": "New User", "email": "newuser@example.com"}' http://localhost:8000/users/
+
+
+## 6 got he the fastapi website on below url
+ > http://localhost:8000/docs/
